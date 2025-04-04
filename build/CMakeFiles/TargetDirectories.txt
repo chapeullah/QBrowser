@@ -1,0 +1,5 @@
+C:/projects/QBrowser/build/CMakeFiles/QBrowser.dir
+C:/projects/QBrowser/build/CMakeFiles/edit_cache.dir
+C:/projects/QBrowser/build/CMakeFiles/rebuild_cache.dir
+C:/projects/QBrowser/build/CMakeFiles/QBrowser_autogen_timestamp_deps.dir
+C:/projects/QBrowser/build/CMakeFiles/QBrowser_autogen.dir

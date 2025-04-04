@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/projects/QBrowser/build",
+  "command": "clang-cl  /nologo -TP -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:\\projects\\QBrowser\\build\\QBrowser_autogen\\include -IC:\\projects\\QBrowser\\src -imsvcC:\\Qt\\6.9.0\\msvc2022_64\\include\\QtWidgets -imsvcC:\\Qt\\6.9.0\\msvc2022_64\\include -imsvcC:\\Qt\\6.9.0\\msvc2022_64\\include\\QtCore -imsvcC:\\Qt\\6.9.0\\msvc2022_64\\mkspecs\\win32-msvc -imsvcC:\\Qt\\6.9.0\\msvc2022_64\\include\\QtGui -imsvcC:\\VulkanSDK\\1.4.309.0\\include /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /FoCMakeFiles\\QBrowser.dir\\QBrowser_autogen\\mocs_compilation.cpp.obj /FdCMakeFiles\\QBrowser.dir\\ -c -- C:\\projects\\QBrowser\\build\\QBrowser_autogen\\mocs_compilation.cpp",
+  "file": "C:\\projects\\QBrowser\\build\\QBrowser_autogen\\mocs_compilation.cpp",
+  "output": "CMakeFiles\\QBrowser.dir\\QBrowser_autogen\\mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/projects/QBrowser/build",
+  "command": "clang-cl  /nologo -TP -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:\\projects\\QBrowser\\build\\QBrowser_autogen\\include -IC:\\projects\\QBrowser\\src -imsvcC:\\Qt\\6.9.0\\msvc2022_64\\include\\QtWidgets -imsvcC:\\Qt\\6.9.0\\msvc2022_64\\include -imsvcC:\\Qt\\6.9.0\\msvc2022_64\\include\\QtCore -imsvcC:\\Qt\\6.9.0\\msvc2022_64\\mkspecs\\win32-msvc -imsvcC:\\Qt\\6.9.0\\msvc2022_64\\include\\QtGui -imsvcC:\\VulkanSDK\\1.4.309.0\\include /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd /FoCMakeFiles\\QBrowser.dir\\src\\QBrowser.cpp.obj /FdCMakeFiles\\QBrowser.dir\\ -c -- C:\\projects\\QBrowser\\src\\QBrowser.cpp",
+  "file": "C:\\projects\\QBrowser\\src\\QBrowser.cpp",
+  "output": "CMakeFiles\\QBrowser.dir\\src\\QBrowser.cpp.obj"
+}
+]

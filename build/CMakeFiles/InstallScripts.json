@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/projects/QBrowser/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

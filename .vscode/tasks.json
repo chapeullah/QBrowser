@@ -1,0 +1,36 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Configure with CMake",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "-S",
+                ".",
+                "-B",
+                "build",
+                "-G",
+                "Ninja",
+                "-DCMAKE_C_COMPILER=clang-cl",
+                "-DCMAKE_CXX_COMPILER=clang-cl"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Configure project using CMake"
+        },
+        {
+            "label": "Build with Ninja",
+            "type": "shell",
+            "command": "ninja",
+            "args": [],
+            "group": "build",
+            "problemMatcher": ["$gcc"],
+            "detail": "Build QBrowser using Ninja",
+            "dependsOn": "Configure with CMake"
+        }
+    ]
+}

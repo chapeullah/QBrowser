@@ -6,10 +6,7 @@
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
-    
-    QMainWindow window;
-    window.setWindowTitle("QBrowser");
-    window.resize(800, 600);
+    Window window;
     window.show();
     
     return app.exec();

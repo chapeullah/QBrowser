@@ -13,7 +13,7 @@
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : []
 				},
-				"path" : "clang-cl",
+				"path" : "C:/Program Files/LLVM/bin/clang-cl.exe",
 				"version" : "18.1.8"
 			},
 			"language" : "C",
@@ -34,7 +34,7 @@
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : []
 				},
-				"path" : "clang-cl",
+				"path" : "C:/Program Files/LLVM/bin/clang-cl.exe",
 				"version" : "18.1.8"
 			},
 			"language" : "CXX",

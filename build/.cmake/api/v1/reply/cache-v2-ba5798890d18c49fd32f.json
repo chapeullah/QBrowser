@@ -126,8 +126,8 @@
 					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "C:/Program Files/LLVM/bin/clang-cl.exe"
+			"type" : "UNINITIALIZED",
+			"value" : "clang-cl"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -286,8 +286,8 @@
 					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "C:/Program Files/LLVM/bin/clang-cl.exe"
+			"type" : "UNINITIALIZED",
+			"value" : "clang-cl"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -557,6 +557,10 @@
 			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
 			"properties" : 
 			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
 				{
 					"name" : "HELPSTRING",
 					"value" : "No help, variable specified on the command line."

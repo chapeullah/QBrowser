@@ -9,7 +9,7 @@
     "C_Cpp.default.intelliSenseMode": "windows-clang-x64",
     "C_Cpp.default.cppStandard": "c++20",
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-    "workbench.colorTheme": "Default Light+",
+    "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
     "files.associations": {
         "qapplication": "cpp",
         "iostream": "cpp",

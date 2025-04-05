@@ -53,7 +53,7 @@ build CMakeFiles\QBrowser.dir\QBrowser_autogen\mocs_compilation.cpp.obj: CXX_COM
   CONFIG = Debug
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd
-  INCLUDES = -IC:\projects\QBrowser\build\QBrowser_autogen\include -IC:\projects\QBrowser\src -imsvcC:\Qt\6.9.0\msvc2022_64\include\QtWidgets -imsvcC:\Qt\6.9.0\msvc2022_64\include -imsvcC:\Qt\6.9.0\msvc2022_64\include\QtCore -imsvcC:\Qt\6.9.0\msvc2022_64\mkspecs\win32-msvc -imsvcC:\Qt\6.9.0\msvc2022_64\include\QtGui -imsvcC:\VulkanSDK\1.4.309.0\include
+  INCLUDES = -IC:\projects\QBrowser\build -IC:\projects\QBrowser -IC:\projects\QBrowser\build\QBrowser_autogen\include -imsvcC:\Qt\6.9.0\msvc2022_64\include\QtCore -imsvcC:\Qt\6.9.0\msvc2022_64\include -imsvcC:\Qt\6.9.0\msvc2022_64\mkspecs\win32-msvc -imsvcC:\Qt\6.9.0\msvc2022_64\include\QtWidgets -imsvcC:\Qt\6.9.0\msvc2022_64\include\QtGui -imsvcC:\VulkanSDK\1.4.309.0\include
   OBJECT_DIR = CMakeFiles\QBrowser.dir
   OBJECT_FILE_DIR = CMakeFiles\QBrowser.dir\QBrowser_autogen
   TARGET_COMPILE_PDB = CMakeFiles\QBrowser.dir\
@@ -63,7 +63,17 @@ build CMakeFiles\QBrowser.dir\src\QBrowser.cpp.obj: CXX_COMPILER__QBrowser_unsca
   CONFIG = Debug
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd
-  INCLUDES = -IC:\projects\QBrowser\build\QBrowser_autogen\include -IC:\projects\QBrowser\src -imsvcC:\Qt\6.9.0\msvc2022_64\include\QtWidgets -imsvcC:\Qt\6.9.0\msvc2022_64\include -imsvcC:\Qt\6.9.0\msvc2022_64\include\QtCore -imsvcC:\Qt\6.9.0\msvc2022_64\mkspecs\win32-msvc -imsvcC:\Qt\6.9.0\msvc2022_64\include\QtGui -imsvcC:\VulkanSDK\1.4.309.0\include
+  INCLUDES = -IC:\projects\QBrowser\build -IC:\projects\QBrowser -IC:\projects\QBrowser\build\QBrowser_autogen\include -imsvcC:\Qt\6.9.0\msvc2022_64\include\QtCore -imsvcC:\Qt\6.9.0\msvc2022_64\include -imsvcC:\Qt\6.9.0\msvc2022_64\mkspecs\win32-msvc -imsvcC:\Qt\6.9.0\msvc2022_64\include\QtWidgets -imsvcC:\Qt\6.9.0\msvc2022_64\include\QtGui -imsvcC:\VulkanSDK\1.4.309.0\include
+  OBJECT_DIR = CMakeFiles\QBrowser.dir
+  OBJECT_FILE_DIR = CMakeFiles\QBrowser.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\QBrowser.dir\
+  TARGET_PDB = QBrowser.pdb
+
+build CMakeFiles\QBrowser.dir\src\Window.cpp.obj: CXX_COMPILER__QBrowser_unscanned_Debug C$:\projects\QBrowser\src\Window.cpp || cmake_object_order_depends_target_QBrowser
+  CONFIG = Debug
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd
+  INCLUDES = -IC:\projects\QBrowser\build -IC:\projects\QBrowser -IC:\projects\QBrowser\build\QBrowser_autogen\include -imsvcC:\Qt\6.9.0\msvc2022_64\include\QtCore -imsvcC:\Qt\6.9.0\msvc2022_64\include -imsvcC:\Qt\6.9.0\msvc2022_64\mkspecs\win32-msvc -imsvcC:\Qt\6.9.0\msvc2022_64\include\QtWidgets -imsvcC:\Qt\6.9.0\msvc2022_64\include\QtGui -imsvcC:\VulkanSDK\1.4.309.0\include
   OBJECT_DIR = CMakeFiles\QBrowser.dir
   OBJECT_FILE_DIR = CMakeFiles\QBrowser.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\QBrowser.dir\
@@ -77,7 +87,7 @@ build CMakeFiles\QBrowser.dir\src\QBrowser.cpp.obj: CXX_COMPILER__QBrowser_unsca
 #############################################
 # Link the executable QBrowser.exe
 
-build QBrowser.exe: CXX_EXECUTABLE_LINKER__QBrowser_Debug CMakeFiles\QBrowser.dir\QBrowser_autogen\mocs_compilation.cpp.obj CMakeFiles\QBrowser.dir\src\QBrowser.cpp.obj | C$:\Qt\6.9.0\msvc2022_64\lib\Qt6Widgetsd.lib C$:\Qt\6.9.0\msvc2022_64\lib\Qt6Guid.lib C$:\Qt\6.9.0\msvc2022_64\lib\Qt6Cored.lib || QBrowser_autogen QBrowser_autogen_timestamp_deps
+build QBrowser.exe: CXX_EXECUTABLE_LINKER__QBrowser_Debug CMakeFiles\QBrowser.dir\QBrowser_autogen\mocs_compilation.cpp.obj CMakeFiles\QBrowser.dir\src\QBrowser.cpp.obj CMakeFiles\QBrowser.dir\src\Window.cpp.obj | C$:\Qt\6.9.0\msvc2022_64\lib\Qt6Widgetsd.lib C$:\Qt\6.9.0\msvc2022_64\lib\Qt6Guid.lib C$:\Qt\6.9.0\msvc2022_64\lib\Qt6Cored.lib || QBrowser_autogen QBrowser_autogen_timestamp_deps
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
@@ -130,9 +140,9 @@ build QBrowser_autogen: phony CMakeFiles\QBrowser_autogen QBrowser_autogen\times
 #############################################
 # Custom command for QBrowser_autogen\timestamp
 
-build QBrowser_autogen\timestamp QBrowser_autogen\mocs_compilation.cpp | ${cmake_ninja_workdir}QBrowser_autogen\timestamp ${cmake_ninja_workdir}QBrowser_autogen\mocs_compilation.cpp: CUSTOM_COMMAND C$:\Qt\6.9.0\msvc2022_64\bin\moc.exe C$:\Qt\6.9.0\msvc2022_64\bin\uic.exe || QBrowser_autogen_timestamp_deps
+build QBrowser_autogen\timestamp QBrowser_autogen\mocs_compilation.cpp | ${cmake_ninja_workdir}QBrowser_autogen\timestamp ${cmake_ninja_workdir}QBrowser_autogen\mocs_compilation.cpp: CUSTOM_COMMAND C$:\Qt\6.9.0\msvc2022_64\bin\moc.exe || QBrowser_autogen_timestamp_deps
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\projects\QBrowser\build && "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/projects/QBrowser/build/CMakeFiles/QBrowser_autogen.dir/AutogenInfo.json Debug && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/projects/QBrowser/build/QBrowser_autogen/timestamp && "C:\Program Files\CMake\bin\cmake.exe" -E cmake_transform_depfile Ninja gccdepfile C:/projects/QBrowser C:/projects/QBrowser C:/projects/QBrowser/build C:/projects/QBrowser/build C:/projects/QBrowser/build/QBrowser_autogen/deps C:/projects/QBrowser/build/CMakeFiles/d/12806571b3ce692fa65447c08fbb4f7db626687b82d2230831d342f3b41f84d0.d"
-  DESC = Automatic MOC and UIC for target QBrowser
+  DESC = Automatic MOC for target QBrowser
   depfile = CMakeFiles\d\12806571b3ce692fa65447c08fbb4f7db626687b82d2230831d342f3b41f84d0.d
   deps = gcc
   restat = 1

@@ -1,9 +1,0 @@
-# ninja log v6
-159	440	7654427627664713	CMakeFiles/QBrowser.dir/QBrowser_autogen/mocs_compilation.cpp.obj	bcfb7ba2efbf71dd
-15	152	7654432500154291	C:/projects/QBrowser/build/QBrowser_autogen/mocs_compilation.cpp	a2a01947a1637600
-411	2173	7654427630196672	CMakeFiles/QBrowser.dir/src/main.cpp.obj	6acfd9da0821b811
-15	152	7654432500154291	C:/projects/QBrowser/build/QBrowser_autogen/timestamp	a2a01947a1637600
-1968	2575	7654432519676518	QBrowser.exe	a7369b4d80b755a3
-15	152	7654432500154291	QBrowser_autogen/mocs_compilation.cpp	a2a01947a1637600
-15	152	7654432500154291	QBrowser_autogen/timestamp	a2a01947a1637600
-152	1967	7654432501524032	CMakeFiles/QBrowser.dir/src/QBrowser.cpp.obj	2c79d76a5e017bcf
